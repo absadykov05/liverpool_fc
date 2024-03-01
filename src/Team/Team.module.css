@@ -1,0 +1,35 @@
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 65px;
+	background-color: rgba(250, 250, 250, 0.9);
+	color: black;
+
+	flex-direction: column;
+	gap: 10px
+}
+
+.category {
+	display: flex;
+	flex-direction: row;
+	column-gap: 20px;
+	margin-bottom: 10px;
+}
+.player {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+	width: 150px;
+	height: 210px;
+	background-color: #ab0d26;
+	color: #fff;
+}
+.player img {
+	height: 150px;
+	/* aspect-ratio: 3/4; */
+}
